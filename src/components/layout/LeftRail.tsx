@@ -10,6 +10,7 @@ import {
   Bookmark,
   PenSquare,
   Settings,
+  Database,
   Sun,
   Moon,
 } from 'lucide-react';
@@ -22,7 +23,7 @@ const navItems = [
   { href: '/messages', label: '消息', icon: Mail },
   { href: '/bookmarks', label: '书签', icon: Bookmark },
   { href: '/compose', label: '发布', icon: PenSquare },
-  { href: '/sources', label: '数据源', icon: Settings },
+  { href: '/sources', label: '数据源', icon: Database },
   { href: '/settings', label: '设置', icon: Settings },
 ];
 
